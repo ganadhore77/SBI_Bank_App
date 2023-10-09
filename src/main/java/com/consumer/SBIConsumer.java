@@ -44,8 +44,7 @@ public class SBIConsumer {
 		System.out.println(updateFirst);
 
 		System.out.println("received to SBI");
-		return "balance updated in your SBI bank account : " + final_bal;
-	
+		return "balance updated in SBI BANK :: account number = "+ accountNumber +" SBI Balance : " + final_bal;
 		
 	}
 
